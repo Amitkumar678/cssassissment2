@@ -1,0 +1,134 @@
+body{
+    background:url("./image1.jpeg");
+    
+    border: 5px solid yellowgreen;
+    /* padding-top: 10px; */
+    margin: 0;
+    /* text-align: center; */
+}
+
+/* heading content */
+
+.container {
+display: flex;
+/* justify-content: center; */
+justify-content: space-between;
+}
+
+.container1 {
+    padding: 50px;
+    display: flex;
+    justify-content: center center;
+}
+
+.formbody {
+margin-left: 100px;
+width: 500px;
+padding: 20px 0px;
+border: 5px dashed red;
+background-color: white;
+color: red;
+}
+
+.heading1 {
+    border: 5px solid red;
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.heading2 {
+    border: 5px solid red;
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 110px;
+}
+
+.heading3 {
+    border: 5px solid red;
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* .p{
+    font-size: 20px;
+    font-style: italic;
+} */
+
+.circle {
+    border: 7px solid grey;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-color: turquoise;
+
+    text-align: center;
+    margin-right: 200px;
+    position: relative;
+}
+
+.container-head {
+    /* margin: 30px; */
+    /* display: flex; */
+    margin: auto auto;
+    /* flex-wrap: wrap; */
+    text-align:center;
+    height: 30px;
+    /* justify-content: space-evenly; */
+    color: violet;
+}
+/* .container3 {
+margin: 200px;
+display: inline;
+flex-wrap: wrap;
+align-items: flex-start;
+height: 30px;
+justify-content: space-evenly;
+color: violet;
+} */
+
+.container2 {
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    }
+    .menu {
+        border: 5px solid red;
+        width: 350px;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        /* margin-top: 20px; */
+    }
+
+.item-list {
+    background-color: aqua;
+    border: 2px solid green;
+    width: 300px;
+    margin: 15px ;
+    border-radius: 20px;
+    color: rgb(32,32,100);
+    /* text-align: center; */
+    font-size: 20px;
+    padding: 5px;
+}
+
+ul{
+text-align:none;
+
+}
